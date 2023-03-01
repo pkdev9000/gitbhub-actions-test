@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Simple JS Action
         id: greet
-        uses: actions/gitbhub-actions-test
+        uses: pkdev9000/gitbhub-actions-test@v1
         with:
           who-to-greet: JMackey
       - name: Log Greeting Time
